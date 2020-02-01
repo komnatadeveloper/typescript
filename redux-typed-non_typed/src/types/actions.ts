@@ -14,7 +14,7 @@ export interface SetExpenseAction {
 
 export interface EditExpenseAction {
   type: typeof EDIT_EXPENSE;
-  id: Expense;
+  expense: Expense;
 }
 
 export interface RemoveExpenseAction {
